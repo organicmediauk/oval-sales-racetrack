@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+}
+.track-grid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  width: 80%;
+  margin: 30px auto;
+  gap: 5px;
+}
+.block {
+  background-color: #ccc;
+  border: 1px solid #999;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+#leaderboard-container {
+  margin-top: 2rem;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
