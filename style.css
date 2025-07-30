@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+svg {
+  width: 90%;
+  height: auto;
+  margin-bottom: 40px;
+}
+text {
+  font-size: 12px;
+  text-anchor: middle;
+}
+.car {
+  r: 8;
+  stroke: white;
+  stroke-width: 2;
+}
+.milestone {
+  font-size: 16px;
+}
+#leaderboard-container {
+  margin-top: 2rem;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}

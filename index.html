@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Oval SVG Racetrack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏁 Salesperson Racetrack</h1>
+  <svg id="racetrack" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="400" cy="300" rx="300" ry="200" stroke="black" stroke-width="6" fill="none"/>
+    <!-- Blocks and cars will be inserted here by JS -->
+  </svg>
+  <div id="leaderboard-container">
+    <h2>Leaderboard</h2>
+    <table id="leaderboard">
+      <thead>
+        <tr><th>Rank</th><th>Name</th><th>Spaces</th><th>Last Updated</th><th>Notes</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
